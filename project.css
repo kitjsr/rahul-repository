@@ -1,0 +1,99 @@
+body{
+    margin:auto;
+}
+.V{
+    background:black;
+    width:100%;
+    height:150px;
+   
+}
+.logo{
+     color:white;
+    text-align:center;
+    padding-top:35px;
+    padding-left:20px;
+    font-size:50px;
+    font-family: "Bitcount Prop Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight:<weight>;
+    font-style:normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    @keyframes bounceFromLeft {
+  0% {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(30px);
+    opacity: 1;
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.bounce-left-right {
+  animation: bounceFromLeft 1s ease-out;
+}
+}
+.logo:hover{
+    color:red;
+}
+.navbar{
+    background:black;
+    float:right;
+
+}
+.dropdown-menu{
+    background:red;
+    color:white;
+}
+.Ind{
+    width:100%;
+    height:500px;
+    background:url('https://previews.123rf.com/images/teploleta/teploleta1601/teploleta160100012/50075987-seamless-black-and-white-background-with-hand-drawn-fashion-clothes.jpg') no-repeat center fixed;
+}
+.zbc{
+    background:black;
+    width:100%;
+    height:200px;
+    color:white;
+     font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    font-size:25px;
+    
+}
+.ybc{
+    background:black;
+    width:100%;
+    height:200px;
+    color:white;
+     font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size:30px;
+
+    
+}
+h3{
+    color:brown;
+     font-family: "Bitcount Prop Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight:<weight>;
+    font-style:normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
